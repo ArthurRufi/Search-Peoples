@@ -8,4 +8,3 @@ Vai cuidar do core da aplicação, sem coisas externas, somente as regras de neg
 
 - Calcular taxa de sucesso
 - Conferir se a pessoa existe ou não
-- 
