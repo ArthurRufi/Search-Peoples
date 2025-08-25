@@ -18,13 +18,9 @@ class People:
         """Confere se a pessoa existe (nome e e-mail não vazios)."""
         return bool(self.name and self.mail)
 
-    def success_rate(self, paramInstagram, paramTwitter, paramCertidoes, paramMoradia) -> float:
+    def success_rate(self, paramInstagram: float, paramTwitter: float, paramCertidoes: float, paramMoradia: float) -> float:
         """Calcula a taxa de sucesso com base em parâmetros fornecidos."""
         total_params = 4
-        successful_params = sum([
-            bool(paramInstagram),
-            bool(paramTwitter),
-            bool(paramCertidoes),
-            bool(paramMoradia)
+        successful_params = sum([paramInstagram, paramCertidoes, paramMoradia, paramTwitter
         ])
         return (successful_params / total_params)
