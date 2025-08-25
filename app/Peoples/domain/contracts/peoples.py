@@ -16,10 +16,12 @@ class People:
 
     def exists(self) -> bool:
         """Confere se a pessoa existe (nome e e-mail não vazios)."""
+        # iniciar tratamento de erros
         return bool(self.name and self.mail)
 
     def success_rate(self, paramInstagram: float, paramTwitter: float, paramCertidoes: float, paramMoradia: float) -> float:
         """Calcula a taxa de sucesso com base em parâmetros fornecidos."""
+        # Iniciar tratamento de erros
         total_params = 4
         successful_params = sum([paramInstagram, paramCertidoes, paramMoradia, paramTwitter
         ])
