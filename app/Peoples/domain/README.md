@@ -17,3 +17,8 @@ Use cases
 - Adaptador que envia dados para as rotas
 - Adaptador que chama testes
 
+### Planejamento
+
+Criar primeiro endpoint que confere o calculo de Δf para todos os pontos e retorna
+
+

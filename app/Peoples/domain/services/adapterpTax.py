@@ -4,7 +4,7 @@
 from app.Peoples.domain.contracts.peoples import People
 
 
-class AdapterPeopleTax:
+class PeopleTax:
     def __init__(self, name: str, age: int, city: str, mail: str, number: str):
         self.person = People(name, age, city, mail, number)
 
