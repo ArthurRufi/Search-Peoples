@@ -17,3 +17,4 @@ class AdapterPeopleTax:
     # + BALANCIADOR DE VALORES *** INTELIGENTE ***
     def calculate_success_rate(self, paramInstagram: float, paramTwitter: float, paramCertidoes: float, paramMoradia: float) -> float:
         return self.person.success_rate(paramInstagram, paramTwitter, paramCertidoes, paramMoradia)
+
