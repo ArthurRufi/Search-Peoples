@@ -9,3 +9,5 @@ async def get_tax(id: int):
     # passar o id para as funcoes necessarias
     
     return {"message": "Peoples route"}
+
+

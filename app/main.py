@@ -12,4 +12,4 @@ async def read_root():
 #criar rota master para peoples e dentro de peoples criar rota para as funcionalidades
 @app.get("/peoples")
 async def read_peoples():
-    return {"message": "Peoples route"}
+    return {"message": "Peoples route"} 
