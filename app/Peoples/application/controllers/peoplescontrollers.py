@@ -4,6 +4,8 @@ routerpeoples =  APIRouter(prefix="/peoples", tags=["peoples"])
 
 
 @routerpeoples.get("/calculate_success_rate/")
-async def read_peoples():
-    #criar rota para calcular a taxa de sucesso
+async def get_tax(id: int):
+#criar rota para calcular a taxa de sucesso
+    # passar o id para as funcoes necessarias
+    
     return {"message": "Peoples route"}
